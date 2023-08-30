@@ -75,6 +75,7 @@ function countEvenNumbersWithin(destination) {
 function celsiusToFahrenheit(arrayOfNumbers) {
     let result = [];
 
+    
     for (let celsuis of arrayOfNumbers){
         let fahrenheit = Math.trunc(celsuis * 9/5 + 32);
         result.push(fahrenheit);
